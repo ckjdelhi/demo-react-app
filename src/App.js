@@ -68,6 +68,9 @@ class App extends React.Component {
     return (
       <TableContainer component={Paper}>
         <ContainedButtons />
+        <ContainedButtons />
+        <ContainedButtons />
+        <ContainedButtons />
         <Table style={{ minWidth: 400 }} aria-label="simple table">
           <TableHead>
             <TableRow>
