@@ -10,6 +10,7 @@ import TextField from "@material-ui/core/TextField";
 
 import React from "react";
 import { Button } from "@material-ui/core";
+import ContainedButtons from "./Button";
 
 class App extends React.Component {
   constructor(props) {
@@ -66,6 +67,7 @@ class App extends React.Component {
   TableComponent() {
     return (
       <TableContainer component={Paper}>
+        <ContainedButtons />
         <Table style={{ minWidth: 400 }} aria-label="simple table">
           <TableHead>
             <TableRow>
